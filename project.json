@@ -13,9 +13,7 @@
     "Microsoft.AspNetCore.Mvc": "1.0.1",
     "Microsoft.AspNetCore.Razor.Tools": {
       "version": "1.0.0-preview2-final",
-      "imports": [
-        "netstandard1.6"
-      ]
+      "type": "build"
     },
     "Microsoft.AspNetCore.Routing": "1.0.1",
     "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
@@ -46,7 +44,10 @@
   "tools": {
     "Microsoft.AspNetCore.Razor.Tools": {
       "version": "1.0.0-preview2-final",
-      "imports": "portable-net45+win8+dnxcore50"
+      "imports": [
+        "portable-net45+win8+dnxcore50",
+        "netStandard1.6"
+      ]
     },
     "Microsoft.AspNetCore.Server.IISIntegration.Tools": {
       "version": "1.0.0-preview2-final",
