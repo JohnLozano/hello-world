@@ -45,13 +45,14 @@
     "Microsoft.AspNetCore.Razor.Tools": {
       "version": "1.0.0-preview2-final",
       "imports": [
-        "portable-net45+win8+dnxcore50",
         "netStandard1.6"
       ]
     },
     "Microsoft.AspNetCore.Server.IISIntegration.Tools": {
       "version": "1.0.0-preview2-final",
-      "imports": "portable-net45+win8+dnxcore50"
+      "imports": [
+        "netStandard1.6"
+      ]
     },
     "Microsoft.EntityFrameworkCore.Tools": {
       "version": "1.0.0-preview2-final",
